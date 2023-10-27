@@ -1,0 +1,55 @@
+body {
+            background-color: #E6B5B8;
+            margin: 0;
+            padding: 0;
+			border: 20px solid #E6B5B8;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: #F9D6D4;
+            justify-content: space-between; /* Adjust the alignment of the logo and the menu */
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #F9D6D4;
+        }
+
+        nav li {
+            float: right;
+        }
+
+        nav li a {
+            display: block;
+            color: #48404D;
+            text-align: center;
+            padding: 18px 20px;
+            text-decoration: none;
+			font-family: Times, Times New Roman, serif;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        nav li a:hover {
+            background-color: #FAE5E2;
+        }
+		
+		nav li a.current {
+			background-color: #FAE5E2;
+		}
+
+        .logo {
+            width: 120px;
+            height: auto;
+        }
+		
+footer {
+text-align: center;
+
+}
+
